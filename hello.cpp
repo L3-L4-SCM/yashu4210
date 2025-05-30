@@ -15,7 +15,7 @@ public:
 };
 
 class Account {
-private:
+private:// Account Number and accountHolderName and balance take from users 
     string accountNumber;
     string accountHolderName;
     double balance;
