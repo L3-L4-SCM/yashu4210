@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>i
 #include <vector>
 #include <string>
 #include <iomanip>
@@ -169,7 +169,7 @@ int main() {
                     if (account) {
                         cout << "Account Balance: " << fixed << setprecision(2) << account->getBalance() << endl;
                     } else {
-                        cout << "Account not found!" << endl;
+                        cout << "Account not found! try again..." << endl;
                     }
                 }
                 break;
@@ -182,7 +182,7 @@ int main() {
                     if (account) {
                         account->printTransactionHistory();
                     } else {
-                        cout << "Account not found!" << endl;
+                        cout << "Account not found!try again.." << endl;
                     }
                 }
                 break;
