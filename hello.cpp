@@ -99,8 +99,8 @@ public:
         cout << "---------------------------------------------------" << endl;
         for (const auto& account : accounts) {
             cout << "Account Number: " << account.getAccountNumber()
-                 << ", Holder: " << account.getAccountHolderName()
-                 << ", Balance: " << fixed << setprecision(2) << account.getBalance()
+                 << "Account Holder: " << account.getAccountHolderName()
+                 << "Account Balance: " << fixed << setprecision(2) << account.getBalance()
                  << endl;
         }
         cout << "---------------------------------------------------" << endl;
